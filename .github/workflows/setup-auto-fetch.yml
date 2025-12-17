@@ -55,8 +55,8 @@ jobs:
           npx prettier --write fetch/prettier/**/*.json
       - name: Commit Changes
         run: |
-          git config --local user.name "JRSKelvin"
-          git config --local user.email "74870436+JRSKelvin@users.noreply.github.com"
+          git config --local user.name "miyashiro-kun"
+          git config --local user.email "mekakushi37@gmail.com"
 
           arr[0]="Daily Fetch Commit Automation (Bot) 🏠"
           arr[1]="Daily Fetch Commit Automation (Bot) 🏘️"
